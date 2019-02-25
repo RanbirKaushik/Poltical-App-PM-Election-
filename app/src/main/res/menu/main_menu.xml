@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/video"
+        android:icon="@drawable/youtube"
+        android:title="Videos"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/fb"
+        android:icon="@drawable/facebook"
+        android:title="Facebook"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bio"
+        android:title="Biography" />
+    <item
+        android:id="@+id/contactus"
+        android:title="Contact Us" />
+    <item
+        android:id="@+id/action_settings_btn"
+        android:title="@string/action_setting_text" />
+    <item
+        android:id="@+id/action_logout_btn"
+        android:title="@string/action_logout_text" />
+</menu>
